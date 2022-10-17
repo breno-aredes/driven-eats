@@ -1,0 +1,155 @@
+body {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin-top: 92px;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ro {
+    font-family: roboto;
+  }
+
+  .ri {
+    font-family: Righteous;
+  }
+
+  .cabecalho {
+    height: 92px;
+    width: 100%;
+    background-color: #cf2b2b;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 25%);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: #ffffff;
+  }
+
+  .titulo {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 21px;
+    margin-top: 8px;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 21px;
+    margin-bottom: 18px;
+  }
+
+  .container {
+    background-color: #e5e5e5;
+    padding-left: 19px;
+    box-sizing: border-box;
+  }
+
+  .container0 {
+    height: 73px;
+    display: flex;
+  }
+
+  .texto {
+    color: #333333;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 31px;
+  }
+
+  .cardapio {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .cardapio::-webkit-scrollbar {
+    display: none;
+  }
+
+  .itens {
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    position: relative;
+    padding: 18px 14px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    margin-right: 16px;
+  }
+
+  .container1 {
+    height: 90px;
+    width: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    margin-bottom: 8px;
+  }
+
+  .nome {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #333333;
+  }
+
+  .descricao {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #a6a6a6;
+  }
+
+  .preco {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .margemb {
+    height: 16px;
+    background-color: #e5e5e5;
+  }
+
+  .rodape {
+    height: 92px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pedido {
+    background-color: #cbcbcb;
+    color: #ffffff;
+    text-align: center;
+    width: 364px;
+    height: 53px;
+    border-radius: 50px;
+  }
+
+  .tpedido {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
