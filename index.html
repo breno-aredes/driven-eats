@@ -18,6 +18,7 @@
     <title>DrivenEats</title>
   </head>
   <body>
+
     <!-- Inicio do cabeçalho-->
     <div class="cabecalho">
         <h1 class="titulo ri">DrivenEats</h1>
@@ -31,37 +32,41 @@
         <div class="container0">
             <h3 class="texto ri">Primeiro, seu prato</h3>
         </div>  
-        <div class="cardapio">
-            <div class="itens">
+        <div class="cardapiop">
+            <div class="itens" onclick="selecionarP(this)">
                 <img src="./img/frango.png">
                 <div class="container1">
                     <p class="nome ro">Frango Yin Yang</p>
                     <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
                     <p class="preco ro">R$ 14,90</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarP(this)">
+                <img src="./img/xtudo.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">X-Tudinho</p>
+                    <p class="descricao ro">Metade de tudo que tem no X-Tudo</p>
+                    <p class="preco ro">R$ 18,00</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarP(this)" >
+                <img src="./img/fritas.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Fritas</p>
+                    <p class="descricao ro">300 g de fritas</p>
+                    <p class="preco ro">R$ 10,50</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarP(this)">
+                <img src="./img/cavalo.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Bife a Cavalo</p>
+                    <p class="descricao ro">É bife de boi</p>
+                    <p class="preco ro">R$ 21,00</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
         </div>
@@ -73,37 +78,41 @@
         <div class="container0">
             <h3 class="texto ri">Agora, sua bebida</h3>
         </div>
-        <div class="cardapio">
-            <div class="itens">
-                <img src="./img/frango.png">
+        <div class="cardapiob">
+            <div class="itens" onclick="selecionarB(this)">
+                <img src="./img/coca.png">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Coca-Cola</p>
+                    <p class="descricao ro">Lata 350ml</p>
+                    <p class="preco ro">R$ 4,50</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarB(this)">
+                <img src="./img/fantaL.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Fanta laranja</p>
+                    <p class="descricao ro">Lata 350ml</p>
+                    <p class="preco ro">R$ 3,50</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarB(this)">
+                <img src="./img/guaravita.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Guaravita</p>
+                    <p class="descricao ro">290ml</p>
+                    <p class="preco ro">R$ 3,00</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarB(this)">
+                <img src="./img/suco.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Suco vale</p>
+                    <p class="descricao ro">Lata 290ml</p>
+                    <p class="preco ro">R$ 4,00</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
         </div>
@@ -115,37 +124,32 @@
         <div class="container0">
             <h3 class="texto ri">Por fim, sua sobremesa</h3>
         </div>
-        <div class="cardapio">
-            <div class="itens">
-                <img src="./img/frango.png">
+        <div class="cardapios">
+            <div class="itens" onclick="selecionarS(this)">
+                <img src="./img/pudim.png">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Pudim</p>
+                    <p class="descricao ro">Apenas pudim</p>
+                    <p class="preco ro">R$ 8,80</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarS(this)">
+                <img src="./img/sorvetim.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Sorvete</p>
+                    <p class="descricao ro">Sorvetim 200g</p>
+                    <p class="preco ro">R$ 7,15</p>
+                    <ion-icon onclick="clickicon(this)" name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
-            <div class="itens">
-                <img src="./img/frango.png">
+            <div class="itens" onclick="selecionarS(this)">
+                <img src="./img/mousse.jpg">
                 <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
-                </div> 
-            </div>
-            <div class="itens">
-                <img src="./img/frango.png">
-                <div class="container1">
-                    <p class="nome ro">Frango Yin Yang</p>
-                    <p class="descricao ro">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco ro">R$ 14,90</p>
+                    <p class="nome ro">Mousse de Maracujá</p>
+                    <p class="descricao ro">So tem de morango</p>
+                    <p class="preco ro">R$ 8,00</p>
+                    <ion-icon onclick="clickicon(this)"  name="checkmark-circle"></ion-icon>
                 </div> 
             </div>
         </div>
@@ -155,12 +159,13 @@
     <!-- Fim do menu -->
 
     <!-- Inicio rodapé -->
-    <div class="rodape">
-        <div class="pedido"> 
-            <p class="tpedido ro">Selecione os 3 itens para fechar o pedido</p></div>
-    </div>
+    <button class="rodape" onclick="finalizar()" disabled>
+        <div class="pedido" disabled> 
+            <p class="tpedido ro" disabled>Selecione os 3 itens para fechar o pedido</p></div>
+    </button>
     <!--fim do rodapé -->
 
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

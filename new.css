@@ -63,13 +63,13 @@ body {
     margin-top: 31px;
   }
 
-  .cardapio {
+  .cardapiop, .cardapiob, .cardapios {
     display: flex;
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
   }
-  .cardapio::-webkit-scrollbar {
+  .cardapiop::-webkit-scrollbar, .cardapios::-webkit-scrollbar, .cardapiob::-webkit-scrollbar {
     display: none;
   }
 
@@ -95,6 +95,9 @@ body {
 
   img {
     margin-bottom: 8px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
   }
 
   .nome {
@@ -125,6 +128,7 @@ body {
   }
 
   .rodape {
+    border: none;
     height: 92px;
     width: 100%;
     background-color: #ffffff;
@@ -139,9 +143,12 @@ body {
     background-color: #cbcbcb;
     color: #ffffff;
     text-align: center;
+    display: flex;
+    align-items: center;
     width: 364px;
-    height: 53px;
+    height: 61px;
     border-radius: 50px;
+    
   }
 
   .tpedido {
@@ -152,4 +159,39 @@ body {
     margin-left: 60px;
     margin-right: 60px;
   }
+
+  .selecionado{
+    box-shadow: 0px 0px 0px 5px rgba(50, 183, 47, 1) inset;
+  }
+
+  ion-icon {
+    display: none;
+  }
+
+  .selecionado ion-icon {
+    color: rgba(50, 183, 47, 1);
+    position: absolute;
+    bottom: 9px;
+    right: 12px;
+    font-size: 20px;
+    display: flex;
+  }
+
+  .pedido-selecionado {
+    background-color: #32B72F;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: 365px;
+    height: 61px;
+    border-radius: 50px;
+    color: #ffffff;
+  }
+
 }
+
+
